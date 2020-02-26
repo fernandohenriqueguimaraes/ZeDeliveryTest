@@ -1,7 +1,7 @@
 # ZeDeliveryTest
 Teste de seleção para a Zé Delivery 
 
-[![Build Status](https://travis-ci.org/codecentric/springboot-sample-app.svg?branch=master)](https://travis-ci.org/codecentric/springboot-sample-app)
+[![Build Status](https://travis-ci.org/fernandohenriqueguimaraes/ZeDeliveryTest.svg?branch=master)](https://travis-ci.org/fernandohenriqueguimaraes/ZeDeliveryTest)
 [![Coverage Status](https://coveralls.io/repos/github/fernandohenriqueguimaraes/ZeDeliveryTest/badge.svg?branch=master)](https://coveralls.io/github/fernandohenriqueguimaraes/ZeDeliveryTest?branch=master)
 
 Minimal [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
