@@ -23,15 +23,7 @@ Execute the `main` method in the `br.com.zedeliverytest.ZeDeliveryTestApplicatio
 
 ## Available Endpoints
 
-1) Get Partner By Id (Method GET)
-  `{Server}:{Port}/app/zedeliverytest/pdv/{id}`
-  `Ex: localhost:8080/app/zedeliverytest/pdv/1`
-  
-2) Get Partners By Longitude and Latitude (Method GET)
-  `{Server}:{Port}/app/zedeliverytest/pdv/lng/{lng}/lat/{lat}`
-  `Ex: localhost:8080/app/zedeliverytest/pdv/lng/-46.720875/lat/-23.584986`
-  
-3) Create Partner (Method POST)
+1) Create Partner (Method POST)
   `{Server}:{Port}/app/zedeliverytest/pdv`
   `Ex: localhost:8080/app/zedeliverytest/pdv`
   `Ex (Body): {
@@ -167,3 +159,13 @@ Execute the `main` method in the `br.com.zedeliverytest.ZeDeliveryTestApplicatio
      ]
       }
 }`
+
+2) Get Partner By Id (Method GET)
+  `{Server}:{Port}/app/zedeliverytest/pdv/{id}`
+  `Ex: localhost:8080/app/zedeliverytest/pdv/1`
+  
+3) Get Partners By Longitude and Latitude (Method GET)
+  `{Server}:{Port}/app/zedeliverytest/pdv/lng/{lng}/lat/{lat}`
+  `Ex: localhost:8080/app/zedeliverytest/pdv/lng/-46.720875/lat/-23.584986`
+  
+
