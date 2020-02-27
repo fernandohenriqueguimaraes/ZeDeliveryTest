@@ -1,9 +1,9 @@
 # ZeDeliveryTest
 Teste de seleção para a Zé Delivery 
 
-Minimal [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
+[Spring Boot](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/html/getting-started-system-requirements.html) minimum requirements.
 
-## Requirements
+## Requirements for this App
 
 For building and running the application you need:
 
