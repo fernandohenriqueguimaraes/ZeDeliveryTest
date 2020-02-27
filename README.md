@@ -19,4 +19,4 @@ In the application.properties located in src/main/resources set up the username 
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `br.com.zedeliverytest.ZeDeliveryTestApplication` class from your IDE.
+Execute the `main` method in the `br.com.zedeliverytest.ZeDeliveryTestApplication` class from your IDE.
