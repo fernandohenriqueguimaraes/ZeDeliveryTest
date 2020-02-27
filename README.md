@@ -1,12 +1,9 @@
 # ZeDeliveryTest
 Teste de seleção para a Zé Delivery 
 
-[![Build Status](https://travis-ci.org/fernandohenriqueguimaraes/ZeDeliveryTest.svg?branch=master)](https://travis-ci.org/fernandohenriqueguimaraes/ZeDeliveryTest)
-[![Coverage Status](https://coveralls.io/repos/github/fernandohenriqueguimaraes/ZeDeliveryTest/badge.svg?branch=master)](https://coveralls.io/github/fernandohenriqueguimaraes/ZeDeliveryTest?branch=master)
+[Spring Boot](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/html/getting-started-system-requirements.html) minimum requirements.
 
-Minimal [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
-
-## Requirements
+## Requirements for this App
 
 For building and running the application you need:
 
@@ -14,12 +11,12 @@ For building and running the application you need:
 - [Maven 3.6.2](https://maven.apache.org)
 - [MySQL 8.0](https://dev.mysql.com/doc/)
 
+## Before run the application, set up the database
+
+In the application.properties located in src/main/resources set up the username and password of your local MySQL. After that, run the following SQL in your MySQL Console:
+
+`CREATE DATABASE IF NOT EXISTS zedeliverytest;`
+
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `de.codecentric.springbootsample.Application` class from your IDE.
-
-Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
-
-```shell
-mvn spring-boot:run
-```
+Execute the `main` method in the `br.com.zedeliverytest.ZeDeliveryTestApplication` class from your IDE.
